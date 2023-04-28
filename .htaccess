@@ -2,7 +2,6 @@ RewriteEngine on
 RewriteCond %{THE_REQUEST} ^.*/index.html
 RewriteRule ^(.*)index.html$ https://onomeacutetro.info/$1 [R=301,L]
 
-RewriteEngine on
 RewriteCond %{HTTP_HOST} ^www\.onomeacutetro\.info$
 RewriteRule ^(.*)$ https://onomeacutetro.info/$1 [R=301,L]
 
