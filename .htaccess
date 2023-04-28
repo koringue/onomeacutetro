@@ -9,3 +9,6 @@ RewriteRule ^(.*)$ $1.php
 
 RewriteCond %{THE_REQUEST} \.(php|html)\ HTTP
 RewriteRule ^(.*)\.(php|html)$ /lp/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ http://onomeacutetro.info/$1 [R=301,L]
