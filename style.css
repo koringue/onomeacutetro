@@ -43,6 +43,11 @@ h3 {
 p {
     font-size: 1em;
     letter-spacing: 0.02em;
+    line-height: 1.5em;
+}
+
+.gray {
+    color: #bbb;
 }
 
 a {
@@ -94,7 +99,7 @@ img{
 
 hr {
     border: 0.1em solid;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 .upcoming{
@@ -108,8 +113,8 @@ hr {
 
 .schedule{
     width: 320px;
-    margin-top: 3em;
-    margin-bottom: 4em;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
 }
 
 .scheduledate{
