@@ -166,6 +166,14 @@ hr {
         margin-top: 0.5em;
     }
 
+    .scheduledate{
+        font-size: 1.1em;
+    }
+
+    .schedulename{
+        font-size: 1.3em;
+    }
+
     .menu{
         font-size: 1.2em;
     }
