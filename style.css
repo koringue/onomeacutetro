@@ -89,7 +89,7 @@ img{
 }
 
 .info_top{
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 .info{
@@ -182,6 +182,7 @@ hr {
 
     .comment p{
         margin-top: 0.5em;
+        line-height: 1.3em;
     }
 
     .scheduledate{
@@ -192,7 +193,7 @@ hr {
         font-size: 1.3em;
     }
 
-    .menu{
+    .menu-top{
         font-size: 1.2em;
     }
 
