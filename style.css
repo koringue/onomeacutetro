@@ -173,7 +173,11 @@ hr {
     }
 
     .info_top{
-        margin-top: 3em;
+        margin-top: 2em;
+    }
+
+    .info_top h3{
+        font-size: 0.8em;
     }
 
     .comment p{
