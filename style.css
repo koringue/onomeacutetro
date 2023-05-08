@@ -181,6 +181,7 @@ hr {
     }
 
     .comment p{
+        font-size: 0.7em;
         margin-top: 0.5em;
         line-height: 1.3em;
     }
