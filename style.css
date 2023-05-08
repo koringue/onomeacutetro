@@ -45,6 +45,7 @@ h3 {
 }
 
 p {
+    font-size: 0.9em;
     letter-spacing: 0.02em;
     line-height: 1.5em;
 }
@@ -87,16 +88,16 @@ img{
     margin-bottom: 0em;
 }
 
-.info_top{
+.info_top {
     margin-bottom: 1.5em;
 }
 
-.info{
+.info {
     margin-top: 5em;
     margin-bottom: 2em;
 }
 
-.info_links{
+.info_links {
     margin-bottom: 2em;
 }
 
@@ -105,28 +106,28 @@ hr {
     margin-bottom: 2em;
 }
 
-.upcoming{
+.upcoming {
     margin-bottom: 0.7em;
 }
 
-.menu{
+.menu {
     font-size: 1.2em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
-.schedule{
+.schedule {
     width: 320px;
-    margin-top: 2.5em;
+    margin-top: 2em;
     margin-bottom: 3em;
 }
 
-.scheduledate{
+.scheduledate {
     font-size: 1.3em;
     margin-bottom: 0.3em;
 }
 
-.schedulename{
+.schedulename {
     margin-top: 0;
     margin-bottom: 0.5em;
 }
@@ -160,10 +161,6 @@ hr {
 }
 
 @media screen and (max-width:940px) {
-    p {
-        font-size: 0.8em;
-    }
-
     .title {
         font-size: 2em;
     }
@@ -207,10 +204,6 @@ hr {
 }
 
 @media screen and (min-width:940px) {
-    p {
-        font-size: 0.9em;
-    }
-    
     .wrapper-row {
         display: flex;
         flex-direction: row;
