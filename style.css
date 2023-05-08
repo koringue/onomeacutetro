@@ -110,6 +110,7 @@ hr {
 }
 
 .menu{
+    font-size: 1.2em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -194,10 +195,6 @@ hr {
 
     .schedulename{
         font-size: 1.3em;
-    }
-
-    .menu-top{
-        font-size: 1.2em;
     }
 
     .box {
