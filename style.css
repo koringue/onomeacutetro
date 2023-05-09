@@ -2,6 +2,7 @@ body {
     background-color: #171950;
     border: solid 0.4em;
     border-radius: 0.05em;
+    margin: 0;
     font-size: 1rem;
     color: #e6e6e6;
     font-family: 'Helvetica Neue', 'Golos Text', "Hiragino Sans" , "Hiragino Kaku Gothic ProN", 'Noto Sans JP', sans-serif;
