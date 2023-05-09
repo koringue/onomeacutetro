@@ -1,5 +1,7 @@
 body {
     background-color: #171950;
+    border: solid 0.4em;
+    border-radius: 0.05em;
     font-size: 1rem;
     color: #e6e6e6;
     font-family: 'Helvetica Neue', 'Golos Text', "Hiragino Sans" , "Hiragino Kaku Gothic ProN", 'Noto Sans JP', sans-serif;
@@ -92,6 +94,10 @@ img{
     margin-bottom: 1.5em;
 }
 
+.menu-wrapper{
+    margin-bottom: 1.7em;
+}
+
 .info {
     margin-top: 5em;
     margin-bottom: 2em;
@@ -136,6 +142,7 @@ hr {
     padding: 1.1em 1.3em;
     margin: 1em 0;
     border: solid 0.2em;
+    border-radius: 0.05em
 }
 .box p {
     margin: 0; 
@@ -160,7 +167,7 @@ hr {
     line-height: 1.4em;
 }
 
-@media screen and (max-width:940px) {
+/* @media screen and (max-width:940px) { */
     .title {
         font-size: 2em;
     }
@@ -201,9 +208,9 @@ hr {
     .lastmod {
         margin-top: 5em;
     }
-}
+/* } */
 
-@media screen and (min-width:940px) {
+/* @media screen and (min-width:940px) {
     .wrapper-row {
         display: flex;
         flex-direction: row;
@@ -230,4 +237,4 @@ hr {
         position: absolute;
         bottom: 3em;
     }
-}
+} */
