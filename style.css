@@ -56,7 +56,7 @@ h3 {
 p {
     font-size: 0.9em;
     letter-spacing: 0.02em;
-    line-height: 1.5em;
+    line-height: 1.4em;
 }
 
 .gray {
@@ -146,7 +146,7 @@ hr {
 }
 
 .box {
-    padding: 1.1em 1.3em;
+    padding: 1em 1.2em;
     margin: 1em 0;
     border: solid 0.2em;
     border-radius: 0.05em
