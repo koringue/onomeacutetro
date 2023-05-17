@@ -20,7 +20,7 @@ body {
 }
 
 main {
-    width: 320px;
+    width: 300px;
 }
 
 @keyframes fade{
@@ -86,7 +86,7 @@ a:active {
 }
 
 img{
-    width:320px;
+    width:300px;
 }
 
 .time {
@@ -130,7 +130,7 @@ hr {
 }
 
 .schedule {
-    width: 320px;
+    width: 300px;
     margin-top: 2em;
     margin-bottom: 3em;
 }
