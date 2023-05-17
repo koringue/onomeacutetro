@@ -5,8 +5,8 @@ html {
 
 body {
     background-color: #171950;
-    border: solid 0.2em;
-    border-radius: 0.1em;
+    /* border: solid 0.3em;
+    border-radius: 1em; */
     margin: 0;
     width: 380px;
     font-size: 1rem;
