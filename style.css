@@ -34,7 +34,7 @@ main {
 
 h1 {
     font-size: 3em;
-    letter-spacing: 0.03em;
+    letter-spacing: -0.02em;
     line-height: 1em;
     margin-top: 0;
     margin-bottom: 0;
@@ -43,19 +43,19 @@ h1 {
 
 h2 {
     font-size: 1.4em;
-    letter-spacing: 0.02em;
+    letter-spacing: -0.02em;
     line-height: 1.2em;
 }
 
 h3 {
     font-size: 1em;
-    letter-spacing: 0.02em;
+    letter-spacing: -0.02em;
     line-height: 1.1em;
 }
 
 p {
     font-size: 0.9em;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.01em;
     line-height: 1.4em;
 }
 
@@ -92,9 +92,18 @@ img{
 .time {
     font-size: 1.1em;
     font-weight: bold;
+    line-height: 1.4em;
     color: #bbb;
     letter-spacing: 0.03em;
     margin-bottom: 0em;
+}
+
+.weather{
+    flex-direction: column;
+}
+
+.weather img{
+    width: 96px;
 }
 
 .info_top {
@@ -170,13 +179,27 @@ hr {
 }
 
 .comment p{
-    margin-top: 0.8em;
+    font-size: 0.7em;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
     line-height: 1.4em;
 }
 
 /* @media screen and (max-width:940px) { */
+    .scroll {
+        width: 300px;
+        overflow: hidden;
+    }
+    
     .title {
         font-size: 1.8em;
+        white-space: nowrap;
+        animation: flowing 10s linear infinite;
+        transform: translateX(100%);/*初期位置*/
+    }
+
+    @keyframes flowing{
+      100% { transform: translateX(-120%)}
     }
     
     .time {
@@ -193,11 +216,6 @@ hr {
 
     .info_top h3{
         font-size: 0.8em;
-    }
-
-    .comment p{
-        font-size: 0.7em;
-        margin-top: 0.5em;
     }
 
     .scheduledate{
