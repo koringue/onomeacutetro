@@ -35,7 +35,7 @@
           var month = realTime.getMonth()+1;
           var date = realTime.getDate();
           var day = realTime.getDay();
-          var dayname = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+          var dayname = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
           var hour = realTime.getHours();
           var minutes  = realTime.getMinutes();
           var seconds  = realTime.getSeconds();
@@ -44,7 +44,7 @@
           if (hour < 10) hour    = '0' + hour;
           if (minutes < 10) minutes = '0' + minutes;
           if (seconds < 10) seconds = '0' + seconds;
-          var text = month + "/" + date + "(" + dayname[day] + ")" + "_" + hour + ":" + minutes + ":" + seconds;
+          var text = month + "." + date + "(" + dayname[day] + ")" + "_" + hour + ":" + minutes + ":" + seconds;
           document.getElementById("time").innerHTML = text;
         }
         setInterval('Time()',1000);
@@ -102,9 +102,9 @@
       <div class="info_top">
         <h3 class="section"><img src="bar.svg" alt="">&nbsp;Upcoming Schedule</h3>
       </div>
-        <h2 class="menu"><img src="sign.svg" alt="Menu Sign"><a href="https://www.instagram.com/p/C9SFfJzywpo/">2024.07.19&nbsp;clubasia</a></h2>
-        <h2 class="menu"><img src="sign.svg" alt="Menu Sign"><a href="https://www.instagram.com/oiran_shibuya/">2024.07.20&nbsp;渋谷花魁</a></h2>
-        <h2 class="menu"><img src="sign.svg" alt="Menu Sign"><a href="https://www.instagram.com/hanare_sancha/">2024.07.26&nbsp;Hanare</a></h2>
+        <h2 class="menu"><img src="sign.svg" alt="Menu Sign"><a href="https://www.instagram.com/p/C9SFfJzywpo/">07.19(Fr)&nbsp;clubasia</a></h2>
+        <h2 class="menu"><img src="sign.svg" alt="Menu Sign"><a href="https://www.instagram.com/oiran_shibuya/">07.20(Sa)&nbsp;SHIBUYA OIRAN</a></h2>
+        <h2 class="menu"><img src="sign.svg" alt="Menu Sign"><a href="https://www.instagram.com/hanare_sancha/">07.26(Fr)&nbsp;Hanare</a></h2>
       <div class="info_top">
         <h3 class="section"><img src="bar.svg" alt="">&nbsp;Regular Events</h3>
       </div>
