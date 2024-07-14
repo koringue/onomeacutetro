@@ -210,8 +210,10 @@ hr {
     .title_scroll {
         font-size: 1.8em;
         white-space: nowrap;
+        <!-- 
         animation: flowing 10s linear infinite;
         transform: translateX(100%);/*初期位置*/
+        -->
     }
 
     @keyframes flowing{
