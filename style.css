@@ -203,7 +203,7 @@ hr {
 
 /* @media screen and (max-width:940px) { */
     .scroll {
-        width: 300px;
+        <!--width: 300px;-->
         overflow: hidden;
     }
     
