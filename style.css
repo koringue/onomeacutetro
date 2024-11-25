@@ -177,6 +177,10 @@ hr {
     padding: 0;
 }
 
+.link {
+    margin-bottom: 0.5em;
+}
+
 .link img{
     width: 25px;
 }
