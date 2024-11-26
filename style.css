@@ -120,10 +120,6 @@ img{
     margin-bottom: 2em;
 }
 
-.visual{
-    margin-bottom: 1em;
-}
-
 /* .info_links {
     margin-bottom: 2em;
 } */
@@ -181,10 +177,6 @@ hr {
     padding: 0;
 }
 
-.link {
-    margin-bottom: 1em;
-}
-
 .link img{
     width: 25px;
 }
@@ -210,6 +202,10 @@ hr {
     margin-bottom: 0.8em;
     line-height: 1.4em;
 }
+
+    .footer-wrapper {
+        margin-top: 1.5em
+    }
 
 /* @media screen and (max-width:940px) { */
     .scroll {
