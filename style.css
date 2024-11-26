@@ -89,7 +89,6 @@ a:active {
 
 img{
     width:300px;
-    margin-bottom: 1em;
 }
 
 .time {
@@ -119,6 +118,10 @@ img{
 .info {
     margin-top: 5em;
     margin-bottom: 2em;
+}
+
+.visual{
+    margin-bottom: 1em;
 }
 
 /* .info_links {
